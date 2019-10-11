@@ -25,16 +25,14 @@ public class PlayerShoot : NetworkBehaviour
         {
             Shoot();
         }
-
-        void Shoot()
+    }
+    void Shoot()
+    {
+        RaycastHit _hit;
+        if (Physics.Raycast(cam.transform.position, cam.transform.forward, out _hit, weapon.range, mask))
         {
-            RaycastHit _hit;
-            if (Physics.Raycast(cam.transform.position,cam.transform.forward,out _hit,weapon.range,mask))
-            {
-                //We hit Something
-                Debug.Log("We Hit " + _hit.collider.name);
-            }
+            //We hit Something
+            Debug.Log("We Hit " + _hit.collider.name);
         }
     }
-
 }

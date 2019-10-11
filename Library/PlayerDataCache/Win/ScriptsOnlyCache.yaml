@@ -7,9 +7,7 @@ ScriptsOnlyBuild:
     - PlayerShoot
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
     - UnityEngine.Networking.NetworkIdentity
     - UnityEngine.Networking.NetworkManager
     - UnityEngine.Networking.NetworkManagerHUD
@@ -49,26 +47,28 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9814}
+      Script: {instanceID: 9828}
     - Class: 114
-      Script: {instanceID: 9926}
+      Script: {instanceID: 9940}
     - Class: 114
-      Script: {instanceID: 10014}
+      Script: {instanceID: 10028}
     - Class: 114
-      Script: {instanceID: 10552}
+      Script: {instanceID: 10566}
     - Class: 114
-      Script: {instanceID: 10720}
+      Script: {instanceID: 10734}
     - Class: 114
-      Script: {instanceID: 10752}
+      Script: {instanceID: 10766}
     - Class: 114
-      Script: {instanceID: 10794}
+      Script: {instanceID: 10808}
     - Class: 114
-      Script: {instanceID: 11012}
+      Script: {instanceID: 11026}
     - Class: 114
-      Script: {instanceID: 11794}
+      Script: {instanceID: 11808}
     - Class: 114
-      Script: {instanceID: 11800}
+      Script: {instanceID: 11814}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 134
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
@@ -1156,4 +1156,4 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/MainLevel01.unity
-  playerPath: F:/Repos/Unity3D/MultiplayerFPS/Builds/MultiplayerFPS.exe
+  playerPath: C:/Users/shamv/Documents/Unity3D/MultiplayerFPS/Builds/Seasons  FPS.exe
